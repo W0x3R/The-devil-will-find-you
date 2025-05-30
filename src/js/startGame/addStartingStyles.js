@@ -8,6 +8,7 @@ const bookEllipse = document.querySelector('.book__ellipse')
 
 export const addStartingStyles = () => {
 	startGameButton.classList.add('play_active');
+	book.classList.add('book_visible')
 	book.classList.add('book_shake')
 	bookStar.classList.add('book__star_active');
 	bookEllipse.classList.add('book__ellipse_active')

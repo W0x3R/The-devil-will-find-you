@@ -2,12 +2,17 @@
 
 .book {
 	position: absolute;
+	opacity: 0;
 	width: clamp(230px, 40vw, 280px);
 	height: clamp(230px, 40vw, 280px);
 	cursor: auto;
 
 	&_shake {
 		animation: shake 1s infinite;
+	}
+
+	&_visible {
+		opacity: 1;
 	}
 
 	&_hide {

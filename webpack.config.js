@@ -37,8 +37,6 @@ module.exports = {
 				{ from: "./src/images/fav-icons", to: "assets/images/fav-icons" },
 				{ from: "./src/site.webmanifest", to: "site.webmanifest" },
 				{ from: "./src/browserconfig.xml", to: "browserconfig.xml" },
-				{ from: "./src/images/readmeImage.jpg", to: "assets/images/pictures" },
-				{ from: "./src/images/lightHouse.png", to: "assets/images/pictures" }
 			]
 		})
 	],
