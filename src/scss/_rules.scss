@@ -35,12 +35,12 @@
 		}
 
 		@include media.mobile {
-			@include mixins.sizes(430px, 345px);
+			@include mixins.sizes(440px, 345px);
 		}
 
 		@include media.smallMobile {
 			padding: 3px;
-			@include mixins.sizes(375px, 310px);
+			@include mixins.sizes(378px, 310px);
 		}
 
 		@include media.smallestMobile {

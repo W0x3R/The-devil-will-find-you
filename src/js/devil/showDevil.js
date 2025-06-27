@@ -5,7 +5,6 @@ import { delay } from "../delay";
 import { getSizeOfElement } from "../sizesAndcentering/getSizeOfElement";
 import { movingSearchObject } from "../searchObject/movingSearchObject";
 import { setStartWidthOfDevil } from "./setStartWidthOfDevil";
-import { controlGameSounds } from "../sounds/controlGameSounds";
 import { displayFoundItemsBlock } from '../displayFoundItemsBlock'
 import { setSearchObjectSize } from "../searchObject/setSearchObjectSize";
 import { movingSearchObjectWithInterval } from "../searchObject/movingSearchObjectWithInterval";
@@ -18,7 +17,6 @@ export const showDevil = () => {
 		const widthOfDevil = getSizeOfElement(devil, 'width')
 		setStartWidthOfDevil(widthOfDevil)
 		centeringElement(devil)
-		controlGameSounds('mainSound', 'play')
 		displayFoundItemsBlock('add')
 		movingSearchObjectWithInterval()
 	})

@@ -22,18 +22,23 @@
 		<div class="result__wrapper">
 			<p class="result__text"></p>
 		</div>
-		<svg class="result__button" aria-label="restart-game" width="76px" height="76px">
-			<use href="./images/svg/restart-game.svg#restart-game"></use>
-		</svg>
+		<button class="result__button">		
+			<svg  aria-label="restart-game" width="76px" height="76px">
+				<use href="./images/svg/restart-game.svg#restart-game"></use>
+			</svg>
+		</button>
 	</div>
 	<div class="rules">
 		<div class="rules__inner">
-			<svg class="rules__btn-en rules__language-btn" data-language="en" aria-label="english-language" width="40px" height="40px">
-				<use href="./images/svg/en-icon.svg#en"></use>
-			</svg>
-			<svg class="rules__btn-ru rules__language-btn" data-language="ru" aria-label="russina-language" width="40px" height="40px">
-				<use href="./images/svg/ru-icon.svg#ru"></use>
-			</svg>
+			<button class="rules__language-btn">
+				<svg class="rules__btn-en" data-language="en" aria-label="english-language" width="40px" height="40px">
+					<use href="./images/svg/en-icon.svg#en"></use>
+				</svg>
+				<svg class="rules__btn-ru" data-language="ru" aria-label="russina-language" width="40px" height="40px">
+					<use href="./images/svg/ru-icon.svg#ru"></use>
+				</svg>
+			</button>
+
 			<p class="rules__text"></p>
 		</div>
 	</div>
@@ -43,9 +48,12 @@
 			<audio class="audio__call-devil" src="./sounds/callDevilSound.mp3"></audio>
 			<audio class="audio__shake-book" src="./sounds/shakeBookSound.mp3"></audio>
 		</div>
-		<svg class="search-object" viewBox="0 0 512 512" aria-label="search-object" width="34px" height="34px">
-			<use href="./images/svg/search-object.svg#pentagram"></use>
-		</svg>
+		<button class="search-object">		
+			<svg viewBox="0 0 512 512" aria-label="search-object" width="34px" height="34px">
+				<use href="./images/svg/search-object.svg#pentagram"></use>
+			</svg>
+		</button>
+
 		<svg class="book" viewBox="0 0 512 512" aria-label="book" width="280px" height="280px">
 			<path
 				d="m220.668 403.431-35.332 21.564v70.576c0 6.938 7.576 11.216 13.517 7.633l17.133-10.332c2.88-1.737 6.484-1.737 9.363 0l17.133 10.332c5.941 3.583 13.517-.696 13.517-7.633v-70.576z"
@@ -111,9 +119,12 @@
 			<source srcset="./images/pictures/devil.webp" type="image/webp">
 			<img class="devil" src="./images/pictures/devil.png" alt="devil-image" draggable="false">
 		</picture>
-		<svg class="play" aria-label="start-game" width="52px" height="52px">
-			<use href="images/svg/start-game.svg#start-game"></use>
-		</svg>
+		<button>		
+			<svg class="play" aria-label="start-game" width="52px" height="52px">
+				<use href="images/svg/start-game.svg#start-game"></use>
+			</svg>
+		</button>
+
 		<div class="found-items">
 			<svg class="found-items__pento" width="52px" height="52px">
 				<use href="images/svg/search-object.svg#pentagram"></use>
